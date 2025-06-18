@@ -21,3 +21,10 @@ print(a+b)
 
 #to round the float to the closest int
 #use round()
+
+#can create functions to calculate exponents
+def main():
+    x=int(input("whats x? "))
+    print("x squared is", pow(x,2))
+
+main()

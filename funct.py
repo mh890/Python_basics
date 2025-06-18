@@ -63,4 +63,5 @@ print('Global', message)
 
 #output >> Local Hello \nGlobal Hello
 
+#can use functions like split() only if user defined function returns a string
 
