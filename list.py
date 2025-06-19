@@ -1,4 +1,4 @@
-'''
+
 students = ["harry" ,"hermione", "ron"]
 
 print(students[1]+ " " + students[0]+ " " + students[2])
@@ -6,7 +6,11 @@ print(students[1]+ " " + students[0]+ " " + students[2])
 #can use a for loop to iterate over strings
 for student in students:
     print(student)
-'''
+
+
+#length of list --> len()
+for i in range(len(students)):
+    print(i+1, students[i]) 
 
 '''
 Perform following operations on given list
